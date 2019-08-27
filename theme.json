@@ -1,0 +1,678 @@
+{
+  "Categories": {
+    "Text Editor": {
+      "Items": {
+        "Plain Text": {
+          "bg": [
+            255,
+            255,
+            255
+          ],
+          "fg": [
+            211,
+            161,
+            199
+          ],
+          "fgrequired": true,
+          "bgrequired": true,
+          "bold": false
+        },
+        "Comment": {
+          "fg": [
+            0,
+            128,
+            0
+          ]
+        },
+        "Selected Text": {
+          "bg": [
+            51,
+            153,
+            255
+          ],
+          "bgopacity": 0.4,
+          "bgrequired": true,
+          "nofg": true
+        },
+        "Brace Matching (Rectangle)": {
+          "bg": [
+            219,
+            224,
+            204
+          ],
+          "nofg": true
+        },
+        "Identifier": {
+          "fg": [
+            255,
+            220,
+            109
+          ],
+          "bg": null,
+          "bold": false
+        },
+        "Number": {},
+        "Operator": {},
+        "String": {
+          "fg": [
+            163,
+            21,
+            21
+          ],
+          "bg": null,
+          "bold": false
+        },
+        "String(C# @ Verbatim)": {
+          "fg": [
+            163,
+            21,
+            21
+          ]
+        },
+        "URL Hyperlink": {
+          "fg": [
+            105,
+            115,
+            74
+          ],
+          "bg": null,
+          "bold": false
+        },
+        "User Types": {
+          "fg": [
+            204,
+            120,
+            50
+          ],
+          "bg": null,
+          "bold": false
+        },
+        "User Types(Enums)": {
+          "fg": [
+            43,
+            145,
+            175
+          ]
+        },
+        "User Types(Interfaces)": {
+          "fg": [
+            175,
+            43,
+            46
+          ],
+          "bg": null,
+          "bold": false
+        },
+        "User Types(Delegates)": {
+          "fg": [
+            16,
+            160,
+            203
+          ],
+          "bg": null,
+          "bold": false
+        },
+        "User Types(Value types)": {
+          "fg": [
+            89,
+            161,
+            158
+          ],
+          "bg": null,
+          "bold": false
+        },
+        "Indicator Margin": {
+          "bg": [
+            240,
+            240,
+            240
+          ],
+          "nofg": true
+        },
+        "Line Numbers": {
+          "fg": [
+            43,
+            145,
+            175
+          ],
+          "bg": [
+            255,
+            255,
+            255
+          ]
+        },
+        "Preprocessor Keyword": {
+          "fg": [
+            220,
+            218,
+            50
+          ],
+          "bg": null,
+          "bold": false
+        },
+        "Keyword": {
+          "fg": [
+            175,
+            54,
+            176
+          ],
+          "bg": null,
+          "bold": false
+        },
+        "XML Doc Comment": {
+          "fg": [
+            128,
+            128,
+            128
+          ],
+          "bg": null,
+          "bold": false
+        },
+        "XML Doc Tag": {
+          "fg": [
+            128,
+            128,
+            128
+          ]
+        },
+        "Highlight Current Line (Active)": {
+          "fg": [
+            234,
+            234,
+            242
+          ],
+          "bg": [
+            255,
+            255,
+            255
+          ],
+          "borderfg": true
+        },
+        "Highlight Current Line (Inactive)": {
+          "fg": [
+            238,
+            238,
+            238
+          ],
+          "bg": [
+            255,
+            255,
+            255
+          ],
+          "borderfg": true
+        },
+        "CSS Comment": {
+          "fg": [
+            128,
+            128,
+            128
+          ],
+          "bg": null,
+          "bold": false
+        },
+        "CSS Keyword": {
+          "fg": [
+            0,
+            0,
+            255
+          ]
+        },
+        "CSS Property Name": {
+          "fg": [
+            255,
+            0,
+            0
+          ]
+        },
+        "CSS Property Value": {
+          "fg": [
+            0,
+            0,
+            255
+          ]
+        },
+        "CSS Selector": {
+          "fg": [
+            128,
+            0,
+            0
+          ]
+        },
+        "CSS String Value": {
+          "fg": [
+            0,
+            0,
+            255
+          ]
+        },
+        "HTML Attribute Name": {
+          "fg": [
+            118,
+            201,
+            110
+          ],
+          "bg": null,
+          "bold": false
+        },
+        "HTML Attribute Value": {
+          "fg": [
+            220,
+            220,
+            224
+          ],
+          "bg": null,
+          "bold": false
+        },
+        "HTML Comment": {
+          "fg": [
+            0,
+            100,
+            0
+          ]
+        },
+        "HTML Element Name": {
+          "fg": [
+            204,
+            120,
+            50
+          ],
+          "bg": null,
+          "bold": false
+        },
+        "HTML Entity": {
+          "fg": [
+            255,
+            0,
+            0
+          ]
+        },
+        "HTML Operator": {
+          "fg": [
+            118,
+            201,
+            110
+          ],
+          "bg": null,
+          "bold": false
+        },
+        "HTML Server-Side Script": {
+          "bg": [
+            255,
+            255,
+            0
+          ]
+        },
+        "HTML Tag Delimiter": {
+          "fg": [
+            204,
+            120,
+            50
+          ],
+          "bg": null,
+          "bold": false
+        },
+        "Razor Code": {
+          "bg": [
+            231,
+            239,
+            242
+          ],
+          "nofg": true
+        },
+        "Script Comment": {
+          "fg": [
+            0,
+            100,
+            0
+          ]
+        },
+        "Script Identifier": {},
+        "Script Keyword": {
+          "fg": [
+            0,
+            0,
+            255
+          ]
+        },
+        "Script Number": {},
+        "Script Operator": {},
+        "Script String": {
+          "fg": [
+            163,
+            21,
+            21
+          ],
+          "bg": null,
+          "bold": false
+        },
+        "XML Attribute": {
+          "fg": [
+            255,
+            0,
+            0
+          ]
+        },
+        "XML Attribute Quotes": {
+          "fg": [
+            0,
+            0,
+            0
+          ],
+          "fgrequired": true
+        },
+        "XML Attribute Value": {
+          "fg": [
+            0,
+            0,
+            255
+          ]
+        },
+        "XML CData Section": {
+          "fg": [
+            128,
+            128,
+            128
+          ]
+        },
+        "XML Comment": {
+          "fg": [
+            0,
+            100,
+            0
+          ]
+        },
+        "XML Delimiter": {
+          "fg": [
+            0,
+            0,
+            255
+          ]
+        },
+        "XML Name": {
+          "fg": [
+            163,
+            21,
+            21
+          ]
+        },
+        "XML Text": {},
+        "XAML Attribute": {
+          "fg": [
+            255,
+            0,
+            0
+          ]
+        },
+        "XAML Attribute Quotes": {
+          "fg": [
+            0,
+            0,
+            0
+          ]
+        },
+        "XAML Attribute Value": {
+          "fg": [
+            0,
+            0,
+            255
+          ]
+        },
+        "XAML CData Section": {
+          "fg": [
+            128,
+            128,
+            128
+          ]
+        },
+        "XAML Comment": {
+          "fg": [
+            0,
+            100,
+            0
+          ]
+        },
+        "XAML Delimiter": {
+          "fg": [
+            0,
+            0,
+            255
+          ]
+        },
+        "XAML Markup Extension Class": {
+          "fg": [
+            163,
+            21,
+            21
+          ]
+        },
+        "XAML Markup Extension Parameter Name": {
+          "fg": [
+            255,
+            0,
+            0
+          ]
+        },
+        "XAML Markup Extension Parameter Value": {
+          "fg": [
+            0,
+            0,
+            255
+          ]
+        },
+        "XAML Name": {
+          "fg": [
+            163,
+            21,
+            21
+          ]
+        },
+        "XAML Text": {},
+        "Inactive Selected Text": {
+          "bg": [
+            191,
+            205,
+            219
+          ],
+          "bgopacity": 0.4,
+          "nofg": true
+        },
+        "Outlining Margin Square": {
+          "fg": [
+            85,
+            85,
+            85
+          ],
+          "bg": [
+            226,
+            226,
+            226
+          ]
+        },
+        "Outlining Margin Vertical Rule": {
+          "fg": [
+            165,
+            165,
+            165
+          ],
+          "nobg": true
+        },
+        "Syntax Error": {
+          "fg": [
+            255,
+            0,
+            0
+          ],
+          "underline": true,
+          "nobg": true
+        },
+        "Compiler Error": {
+          "fg": [
+            0,
+            0,
+            255
+          ],
+          "underline": true,
+          "nobg": true
+        },
+        "Warning": {
+          "fg": [
+            0,
+            128,
+            0
+          ],
+          "underline": true,
+          "nobg": true
+        },
+        "Collapsible Region": {
+          "fg": [
+            215,
+            221,
+            232
+          ],
+          "fgrequired": true,
+          "bg": [
+            246,
+            247,
+            250
+          ],
+          "bgrequired": true
+        },
+        "Collapsed Text": {
+          "fg": [
+            128,
+            128,
+            128
+          ],
+          "nobg": true
+        },
+        "Excluded Code": {
+          "fg": [
+            128,
+            128,
+            128
+          ]
+        },
+        "Highlighted Reference": {
+          "bg": [
+            219,
+            224,
+            204
+          ],
+          "nofg": true
+        },
+        "Breakpoint (Enabled)": {
+          "bg": [
+            150,
+            58,
+            70
+          ],
+          "fg": [
+            255,
+            255,
+            255
+          ],
+          "fgrequired": true,
+          "bgrequired": true
+        },
+        "Current Statement": {
+          "bg": [
+            255,
+            238,
+            98
+          ],
+          "fg": [
+            0,
+            0,
+            0
+          ],
+          "fgrequired": true,
+          "bgrequired": true
+        },
+        "C++ Enumerators": {
+          "fg": [
+            47,
+            79,
+            79
+          ]
+        },
+        "C++ Fields": {
+          "fg": [
+            0,
+            0,
+            0
+          ]
+        },
+        "C++ Functions": {
+          "fg": [
+            0,
+            0,
+            0
+          ]
+        },
+        "C++ Local Variables": {
+          "fg": [
+            0,
+            0,
+            0
+          ]
+        },
+        "C++ Macro": {
+          "fg": [
+            111,
+            0,
+            138
+          ]
+        },
+        "C++ Member Functions": {
+          "fg": [
+            0,
+            0,
+            0
+          ]
+        },
+        "C++ Namespaces": {
+          "fg": [
+            0,
+            0,
+            0
+          ]
+        },
+        "C++ Parameters": {
+          "fg": [
+            128,
+            128,
+            128
+          ]
+        },
+        "C++ Static Fields": {
+          "fg": [
+            0,
+            0,
+            0
+          ]
+        },
+        "C++ Static Member Functions": {
+          "fg": [
+            0,
+            0,
+            0
+          ]
+        },
+        "C++ User Types": {
+          "fg": [
+            43,
+            145,
+            175
+          ]
+        },
+        "C++ Variables": {
+          "fg": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    }
+  }
+}
